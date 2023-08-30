@@ -1,0 +1,61 @@
+body{
+    background:black;
+    font-family:"Roboto";
+}
+i{
+    font-size:2em;
+}
+div.postContainer{
+    background:white;
+    margin:auto;
+    width:500px;
+}
+h1,p{
+    padding:0px;
+    margin:0px;
+}
+img {
+    width:100%;
+    object-fit:cover;
+}
+div.topSection{
+    display:flex;
+    flex-direction: row;
+    padding:15px 12px 12px 13px;
+}
+div.logo{
+    float:left;
+    padding:2px;
+    width:7%;
+    font-size:0.95em;
+    }
+div.titleAndLocation{
+    width:93%;
+    padding:0px;
+}
+div.optionDots{
+    width:3%;
+    padding:2px;
+    float:right;
+    font-size:1.1em;
+}
+div.saveIcon{
+    float:right;
+    width:5%;
+}
+div.interactionIcons{
+    display:flex;
+    flex-direction: row;
+    padding: 15px 15px 18px 15px;
+    font-size:1.1em;
+    
+}
+div.interactionIcons i:after{
+    content:"\00a0";
+}
+div.likeCommentShare{
+    width:90%;
+}
+div.lowerSection{
+    padding:15px;
+}
