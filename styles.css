@@ -14,47 +14,45 @@ h1,p{
     padding:0px;
     margin:0px;
 }
+div.topSection{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:15px;
+}
+div.user{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+div.logo{
+    display:flex;
+    align-items:center;
+    font-size:0.95em;
+    }
+div.logo i:after{
+    content:"\00a0";
+}
+div.titleAndLocation{
+    padding:0px;
+    
+}
+div.optionDots{
+    font-size:1.1em;
+}
 img {
     width:100%;
     object-fit:cover;
 }
-div.topSection{
-    display:flex;
-    flex-direction: row;
-    padding:15px 12px 12px 13px;
-}
-div.logo{
-    float:left;
-    padding:2px;
-    width:7%;
-    font-size:0.95em;
-    }
-div.titleAndLocation{
-    width:93%;
-    padding:0px;
-}
-div.optionDots{
-    width:3%;
-    padding:2px;
-    float:right;
-    font-size:1.1em;
-}
-div.saveIcon{
-    float:right;
-    width:5%;
-}
 div.interactionIcons{
     display:flex;
     flex-direction: row;
-    padding: 15px 15px 18px 15px;
+    justify-content:space-between;
     font-size:1.1em;
-    
+    padding:15px;    
 }
 div.interactionIcons i:after{
     content:"\00a0";
-}
-div.likeCommentShare{
-    width:90%;
 }
 div.lowerSection{
     padding:15px;
