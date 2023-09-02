@@ -7,7 +7,7 @@ i{
 }
 div.postContainer{
     background:white;
-    margin:auto;
+    margin:80px auto 80px auto;
     width:500px;
 }
 h1,p{
@@ -20,7 +20,7 @@ div.topSection{
     justify-content:space-between;
     padding:15px;
 }
-div.user{
+.topSection>div{
     display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
